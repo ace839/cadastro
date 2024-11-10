@@ -81,7 +81,7 @@
         </div>
         <button type="button" class="btn" onclick="cadastrarUsuario()">Cadastrar</button>
     </form>
-    <p class="link">Já tem uma conta? <a href="login.html">Faça o login</a></p>
+    <p class="link">Já tem uma conta? <a href="https://ace839.github.io/login/" target="_blank">Faça o login</a></p>
 </div>
 
 <script>
@@ -103,7 +103,7 @@
                 usuarios.push({ email, senha });
                 localStorage.setItem('usuarios', JSON.stringify(usuarios));
                 alert("Cadastro realizado com sucesso!");
-                window.location.href = "login.html"; // Redireciona para a página de login
+                window.location.href = "https://ace839.github.io/login/"; // Redireciona para a página de login
             }
         } else {
             alert("Por favor, preencha todos os campos.");
